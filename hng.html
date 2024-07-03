@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elevate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      @import url("https://fonts.cdnfonts.com/css/euclid-circular-a");
+      body {
+        font-family: "Euclid Circular A";
+      }
+    </style>
+  </head>
+  <body class="font-roboto bg-gray-100 text-gray-900">
+    <!-- Header Section -->
+    <header class="bg-purple-400 text-white py-6">
+      <div class="container mx-auto flex justify-between items-center px-6">
+        <h1 class="text-3xl font-bold">Ugbenin wisdom</h1>
+        <nav class="space-x-4">
+          <a href="#about" class="hover:underline">Learn More</a>
+          <a href="#goals" class="hover:underline">Product</a>
+          <a href="#contact" class="hover:underline">Services</a>
+          <a href="#contact" class="hover:underline">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center h-96 flex items-center justify-center">
+      <div
+        class="text-center text-white bg-black bg-opacity-50 p-10 rounded-lg"
+      >
+        <h2 class="text-4xl font-bold mb-4">Visit us at</h2>
+        <a class="text-lg" href="https://hng.tech"> hng.tech </a>
+        <p>Our email: osesebaga13@gmail.com</p>
+        <p>username: baga13</p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold mb-6 text-center">About Ugbenin wisdom</h2>
+        <p class="text-lg leading-relaxed text-center">
+          Ugbenin wisdom is a pioneering startup committed to driving innovation and
+          excellence in Entertainment.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold mb-6 text-center">Contact Us</h2>
+        <form class="max-w-lg mx-auto bg-gray-100 p-8 rounded-lg shadow-md">
+          <div class="mb-4">
+            <label for="name" class="block text-lg font-bold mb-2">Name</label>
+            <input
+              type="text"
+              id="name"
+              class="w-full p-2 border border-gray-300 rounded-lg"
+              placeholder="Your Name"
+            />
+          </div>
+          <div class="mb-4">
+            <label for="email" class="block text-lg font-bold mb-2"
+              >Email</label
+            >
+            <input
+              type="email"
+              id="email"
+              class="w-full p-2 border border-gray-300 rounded-lg"
+              placeholder="Your Email"
+            />
+          </div>
+          <div class="mb-4">
+            <label for="message" class="block text-lg font-bold mb-2"
+              >Message</label
+            >
+            <textarea
+              id="message"
+              class="w-full p-2 border border-gray-300 rounded-lg"
+              rows="4"
+              placeholder="Your Message"
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="w-full bg-purple-400 text-white py-2 rounded-lg"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- vision and mission statement -->
+    <section class="bg-purple-400 text-white py-12">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-4xl font-bold mb-4">Elevate</h2>
+        <p class="text-lg mb-8">our mission is to:</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="p-6 rounded-lg shadow-lg bg-white">
+            <h3 class="text-2xl text-slate-700 font-bold mb-2">Innovate</h3>
+            <p class="text-gray-400">
+              Foster a culture of creativity in the entertainment.
+            </p>
+          </div>
+          <div class="p-6 rounded-lg shadow-lg bg-white">
+            <h3 class="text-2xl text-slate-700 font-bold mb-2">Educate</h3>
+            <p class="text-gray-400">
+              Provide quality education and training to entertainers.
+            </p>
+          </div>
+          <div class="p-6 rounded-lg shadow-lg bg-white">
+            <h3 class="text-2xl text-slate-700 font-bold mb-2">Empower</h3>
+            <p class="text-gray-400">
+              Empower individuals and communities through knowledge of
+              entertainment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <br /> -->
+    <!-- Footer Section -->
+    <footer class="bg-white text-white py-4">
+      <div class="container text-slate-700 mx-auto text-center">
+        <p>Elevate. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
